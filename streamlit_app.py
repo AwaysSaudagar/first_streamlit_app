@@ -50,7 +50,7 @@ try:
 
 except URLError as e:
     streamlit.error()
-streamlit.stop()
+
 
 
 
@@ -74,3 +74,5 @@ if streamlit.button('Get Fruit Load List'):
 #fruit_choice_3='Thanks for adding '+str(fruit_choice_2)
 #my_cur.execute("insert into fruit_load_list values ('{}')".format(fruit_choice_3))
 #streamlit.text(fruit_choice_2)
+
+streamlit.stop()
